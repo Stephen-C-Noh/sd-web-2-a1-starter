@@ -84,7 +84,7 @@ const renderCharacterNamesWithErrorHandling = (characters, targetListId, errorDi
   });
 };
 
-renderCharacterNamesWithErrorHandling(characters, "function-list", "error-messages");
+renderCharacterNamesWithErrorHandling(characters, "error-handling-list", "error-messages");
 
 // 6. Create a second array called "brokenCharacters" that intentionally contains objects with missing name properties 
 // (e.g., objects with only id and age). Pass this broken array to your error-handling functions from exercise 5. 
